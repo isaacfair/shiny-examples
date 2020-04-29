@@ -1,11 +1,11 @@
 fluidPage(
   # Application title
-  titlePanel("Word Cloud"),
+  titlePanel("Interative Word Cloud Machine"),
 
   sidebarLayout(
     # Sidebar with a slider and selection inputs
     sidebarPanel(
-      selectInput("selection", "Choose a book:",
+      selectInput("selection", "Choose a data set:",
                   choices = books),
       actionButton("update", "Change"),
       hr(),

@@ -1,10 +1,3 @@
-# Text of the books downloaded from:
-# A Mid Summer Night's Dream:
-#  http://www.gutenberg.org/cache/epub/2242/pg2242.txt
-# The Merchant of Venice:
-#  http://www.gutenberg.org/cache/epub/2243/pg2243.txt
-# Romeo and Juliet:
-#  http://www.gutenberg.org/cache/epub/1112/pg1112.txt
 
 function(input, output, session) {
   # Define a reactive expression for the document term matrix
